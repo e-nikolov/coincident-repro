@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coincident repro - demo</title>
-  <script src="/coi-serviceworker.js"></script>
+  <script src="/coincident-repro/coi-serviceworker.js"></script>
   <!-- <script src="/mini-coi.js"></script> -->
-  <script defer type="module" src="/src/ts/main-demo.ts"></script>
+  
+  <script type="module" crossorigin src="/coincident-repro/assets/demo-ec4ee379.js"></script>
+  <link rel="modulepreload" crossorigin href="/coincident-repro/assets/core-88f0cf62.js">
 </head>
 
 <body>
-  > <a href="./demo.html">Demo</a>
-  < <br />
+  &gt; <a href="./demo.html">Demo</a>
+  &lt; <br />
   <a href="./debug.html">Debug output demo</a>
   <br />
   <a href="./passive.html">Passive worker demo</a>
